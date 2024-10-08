@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dc8ba8a-70db-47cf-ae74-dbb14c6f2661" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/java/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/java/OfflineClassCollege/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/java/OfflineClassCollege/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/java/Services/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/java/Services/CalculatorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -41,18 +48,39 @@
     "Application.CarMain.executor": "Run",
     "Application.Library.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.OfflineClassCollege.Main.executor": "Run",
     "Application.OfflineClassTeacher.Main.executor": "Run",
     "Application.RectangleMain.executor": "Run",
     "Application.StringMethods.executor": "Run",
     "Application.Zoo.executor": "Run",
+    "JUnit.CalculatorServiceTest.testAddTwoNumbers.executor": "Run",
+    "JUnit.CalculatorServiceTest.testDivideTwoNumbers.executor": "Run",
+    "JUnit.CalculatorServiceTest.testProductTwoNumbers.executor": "Run",
+    "JUnit.CalculatorServiceTest.testSubtractTwoNumbers.executor": "Run",
+    "Maven.Programs [clean].executor": "Run",
+    "Maven.Programs [org.apache.maven.plugins:maven-install-plugin:3.1.2:help].executor": "Run",
+    "Maven.Programs [org.apache.maven.plugins:maven-install-plugin:3.1.2:install-file].executor": "Run",
+    "Maven.Programs [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
+    "Maven.Unknown [clean].executor": "Run",
+    "Maven.Unknown [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorServiceTest.testDivideTwoNumbers">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Programs" />
@@ -60,8 +88,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorServiceTest.testAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.CalculatorServiceTest" />
+      <option name="METHOD_NAME" value="testAddTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServiceTest.testDivideTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.CalculatorServiceTest" />
+      <option name="METHOD_NAME" value="testDivideTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServiceTest.testProductTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.CalculatorServiceTest" />
+      <option name="METHOD_NAME" value="testProductTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorServiceTest.testSubtractTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Services" />
+      <option name="MAIN_CLASS_NAME" value="Services.CalculatorServiceTest" />
+      <option name="METHOD_NAME" value="testSubtractTwoNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorServiceTest.testDivideTwoNumbers" />
+        <item itemvalue="JUnit.CalculatorServiceTest.testProductTwoNumbers" />
+        <item itemvalue="JUnit.CalculatorServiceTest.testSubtractTwoNumbers" />
+        <item itemvalue="JUnit.CalculatorServiceTest.testAddTwoNumbers" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -76,5 +172,20 @@
       <updated>1728298219892</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Services/CalculatorServiceTest.java</url>
+          <line>15</line>
+          <properties class="Services.CalculatorServiceTest" method="testProductTwoNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

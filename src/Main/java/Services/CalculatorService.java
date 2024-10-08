@@ -16,8 +16,8 @@ public class CalculatorService {
         return a*b;
     }
 
-    public static double divideTwoNumbers(int a, int b){
-        return (float)(a/b);
+    public static double divideTwoNumbers(double a, double b){
+        return a/b;
     }
 
 

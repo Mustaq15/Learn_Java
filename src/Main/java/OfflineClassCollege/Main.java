@@ -7,13 +7,13 @@ public class Main {
         Teacher teach1=new Teacher();
 
 //		Student details input
-        stu.id=100;
+        stu.id=313;
         stu.name="MustaqAhmed";
 
 //		Teachers details input
-        teach.id=200;
+        teach.id=826;
         teach.name="Onkar";
-        teach1.id=201;
+        teach1.id=391;
         teach1.name="Shrikant";
 
 //		Student & Teacher details

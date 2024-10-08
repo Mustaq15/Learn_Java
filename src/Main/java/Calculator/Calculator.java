@@ -59,7 +59,5 @@ public class Calculator {
 
         // Display the result
         System.out.println("The result of the operation is: " + result);
-
-
     }
 }
